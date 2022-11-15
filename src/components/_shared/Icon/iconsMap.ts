@@ -1,0 +1,38 @@
+import dynamic from 'next/dynamic';
+
+const iconsMap = {
+  user: dynamic(() => import('./icons/UI_product_user')),
+  userLogged: dynamic(() => import('./icons/UI_product_user-logged'), { ssr: false }),
+  search: dynamic(() => import('./icons/UI_action_search')),
+  cart: dynamic(() => import('./icons/UI_product_cart')),
+  close: dynamic(() => import('./icons/UI_action_close'), { ssr: false }),
+  bars: dynamic(() => import('./icons/UI_action_menu')),
+  timeClock: dynamic(() => import('./icons/UI_time_clock'), { ssr: false }),
+  book: dynamic(() => import('./icons/UI_book'), { ssr: false }),
+  heart: dynamic(() => import('./icons/UI_action_heart'), { ssr: false }),
+  heartSolid: dynamic(() => import('./icons/UI_action_heart-solid'), { ssr: false }),
+  arrowLeft: dynamic(() => import('./icons/UI_action_arrow-left'), { ssr: false }),
+  arrowRight: dynamic(() => import('./icons/UI_action_arrow-right'), { ssr: false }),
+  chevronLeft: dynamic(() => import('./icons/UI_action_chevron-left'), { ssr: false }),
+  chevronRight: dynamic(() => import('./icons/UI_action_chevron-right'), { ssr: false }),
+  check: dynamic(() => import('./icons/UI_action_check'), { ssr: false }),
+  share: dynamic(() => import('./icons/UI_action_share-ios'), { ssr: false }),
+  seal: dynamic(() => import('./icons/UI_product_seal'), { ssr: false }),
+  lock: dynamic(() => import('./icons/UI_product_lock'), { ssr: false }),
+  mail: dynamic(() => import('./icons/UI_product_mail'), { ssr: false }),
+  return: dynamic(() => import('./icons/UI_product_return'), { ssr: false }),
+  minus: dynamic(() => import('./icons/UI_action_minus'), { ssr: false }),
+  plus: dynamic(() => import('./icons/UI_action_plus'), { ssr: false }),
+  angleRight: dynamic(() => import('./icons/UI_action_angle-right'), { ssr: false }),
+  copy: dynamic(() => import('./icons/UI_action_copy'), { ssr: false }),
+  shareAndroid: dynamic(() => import('./icons/UI_action_share-android'), { ssr: false }),
+  euro: dynamic(() => import('./icons/UI_product_coin-euro'), { ssr: false }),
+  social_facebook: dynamic(() => import('./icons/badges_social-networks_facebook'), { ssr: false }),
+  social_whatsapp: dynamic(() => import('./icons/badges_social-networks_whatsapp'), { ssr: false }),
+  social_twitter: dynamic(() => import('./icons/badges_social-networks_twitter'), { ssr: false }),
+  social_instagram: dynamic(() => import('./icons/badges_social-networks_instagram'), { ssr: false }),
+  discount: dynamic(() => import('./icons/discount'), { ssr: false }),
+  star: dynamic(() => import('./icons/UI_action_star'), { ssr: false }),
+};
+
+export default iconsMap;

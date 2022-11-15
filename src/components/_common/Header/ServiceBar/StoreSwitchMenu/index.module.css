@@ -1,0 +1,46 @@
+.selectContainer {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.selectCountry {
+  width: 200px;
+}
+
+.selectLanguage {
+  width: 150px;
+}
+
+@mixin desktop {
+  .menu {
+    label {
+      display: inline-block;
+    }
+  }
+}
+
+@mixin mobile {
+  .menu {
+    border-top: 1px solid #ccc;
+    background: var(--color-secondary-light);
+    padding: 20px;
+
+    label {
+      display: block;
+    }
+
+    .selectContainer {
+      margin: 0;
+    }
+
+    .selectCountry,
+    .selectLanguage {
+      width: 100%;
+      margin: 10px 0 20px;
+    }
+
+    :global(.btn) {
+      width: 100%;
+    }
+  }
+}

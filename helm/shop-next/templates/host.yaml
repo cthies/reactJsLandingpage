@@ -1,0 +1,31 @@
+{{- if .Values.ambassador.enabled -}}
+{{- $fullName := include "shop-next.fullname" . -}}
+{{- range .Values.ambassador.hosts }}
+---
+{{$data := dict "fullName" $fullName "acmeAuthority" $.Values.ambassador.acmeProvider.authority "el" . }}
+apiVersion: getambassador.io/v2
+kind: Host
+metadata:
+  name: {{ include "shop-next.hostName" $data}}
+spec:
+  {{- if $.Values.ambassador.ambassadorId }}
+  {{- if kindIs "string" $.Values.ambassador.ambassadorId }}
+  ambassador_id: {{ $.Values.ambassador.ambassadorId }}
+  {{- else }}
+  ambassador_id:
+    {{- .ambassadorId | default $.Values.ambassador.ambassadorId | toYaml | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  hostname: {{ .host }}
+  acmeProvider:
+    authority: {{ include "shop-next.acmeAuthority" $data }}
+    email: {{ $.Values.ambassador.acmeProvider.email }}
+  {{- if .tlsSecret.enabled }}
+  tlsSecret:
+    name: {{ include "shop-next.tlsSecretName" $data }}
+  {{- end }}
+  tls:
+    alpn_protocols: http/1.1
+    min_tls_version: v1.2
+{{- end }}
+{{- end }}

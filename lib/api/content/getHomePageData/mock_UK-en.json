@@ -1,0 +1,790 @@
+{
+  "page_title": "foodspring® - finest fitness food",
+  "page_keywords": "Proteins, Proteinshakes, Muscle building, Training, Fitness, Sport, Nutrition",
+  "page_description": "foodspring® - Premium fitness food & sports nutrition | Quality made in Germany",
+  "tracking_page_type": "home",
+  "slices": [
+    {
+      "slice_type": "hero_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "cta_url": "/advent-calendar",
+          "cta_title": "Shop now",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/hero_slider/AC_mobile_blank.jpg",
+          "image_mobile_width": 880,
+          "image_mobile_height": 1420,
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/hero_slider/AC_desktop_blank.jpg",
+          "image_desktop_width": 2070,
+          "image_desktop_height": 1080,
+          "style": "black",
+          "title": "24 gifts for your muscles.",
+          "subtitle": "Two fitness-friendly advent calendars. Packed with proteins. Energised with aminos. Fuelled with joy.",
+          "tracking_id": "Main banner HP 1 - Sep 2021",
+          "tracking_name": "Home main banner",
+          "tracking_creative": "CW37-2021 Advent calendar"
+        },
+        {
+          "cta_url": "/vegan-shape-shake-caramel-latte-macchiato",
+          "cta_title": "Get both",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/hero_slider/210909_ONSITE_New_home_page_Part_2_Mobile_04_VeganSS_LE_1.jpg",
+          "image_mobile_width": 880,
+          "image_mobile_height": 1420,
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/hero_slider/VeganSS_LE.jpg",
+          "image_desktop_width": 2070,
+          "image_desktop_height": 1080,
+          "style": "white",
+          "title": "Limited edition: new Shape Shake 2.0 flavours",
+          "subtitle": "Plant-based weight-loss shakes that taste like Caramel Latte Macchiato & Dulce de Leche? Yes, please!",
+          "tracking_id": "Main banner HP 2 - Sep 2021",
+          "tracking_name": "Home main banner",
+          "tracking_creative": "CW37-2021 Vegan shape shake"
+        },
+        {
+          "cta_url": "/vegan-protein-bar-extra-layered",
+          "cta_title": "Stock up now",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/hero_slider/210913_ONSITE_New_home_page_Part_2_Mobile_03_VeganProteinBarExtraLayer_B.jpg",
+          "image_mobile_width": 880,
+          "image_mobile_height": 1420,
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/hero_slider/VeganProteinBarExtraLayer.jpg",
+          "image_desktop_width": 2070,
+          "image_desktop_height": 1080,
+          "style": "black",
+          "title": "They're back: our chocolatey fitness bars",
+          "subtitle": "Summer may be over, but there's a silver lining: you can once again enjoy your favourite high-protein, low-sugar chocolatey bars!",
+          "tracking_id": "Main banner HP 3 - Sep 2021",
+          "tracking_name": "Home main banner",
+          "tracking_creative": "CW37-2021 Back vegan protein bar extra layered"
+        }
+      ],
+      "primary": {
+        "step_tracking": "Hero slider HP navigation"
+      }
+    },
+    {
+      "slice_type": "tags",
+      "slice_label": null,
+      "items": [
+        {
+          "url": "/protein-powders",
+          "title": "Protein powders",
+          "tracking_id": "Interest HP 1 - Sep 2021",
+          "tracking_name": "Interests HP",
+          "tracking_creative": "CW37-2021 Product type Protein powders"
+        },
+        {
+          "url": "/muscle-building",
+          "title": "Muscle building",
+          "tracking_id": "Interest HP 2 - Sep 2021",
+          "tracking_name": "Interests HP",
+          "tracking_creative": "CW37-2021 Muscle building goal"
+        }
+      ],
+      "primary": {
+        "is_active": true,
+        "title": "What are you interested in?"
+      }
+    },
+    {
+      "slice_type": "shortcuts",
+      "slice_label": null,
+      "items": [
+        {
+          "url": "/interests/fitness",
+          "title": "Muskelaufbau für Anfänger",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/ilp-shortcuts/fitness.jpg",
+          "tracking_id": "muscle building",
+          "tracking_name": "Interest LPs shortcuts Home",
+          "tracking_creative": "CW45-2021 muscle building for beginners"
+        },
+        {
+          "url": "/interests/abnehmen",
+          "title": "Gesund abnehmen",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/ilp-shortcuts/shape.jpg",
+          "tracking_id": "shape",
+          "tracking_name": "Interest LPs shortcuts Home",
+          "tracking_creative": "CW45-2021 healthy weight loss"
+        },
+        {
+          "url": "/interests/gesunde-ernaehrung",
+          "title": "Gesunde Ernährung",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/ilp-shortcuts/healthy-living.jpg",
+          "tracking_id": "healthy living",
+          "tracking_name": "Interest LPs shortcuts Home",
+          "tracking_creative": "CW45-2021 healthy nutrition"
+        }
+      ],
+      "primary": {
+        "is_active": false,
+        "title": "Wofür interessierst du dich?"
+      }
+    },
+    {
+      "slice_type": "product_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "cta_url": "/whey-protein",
+          "name": "Whey Protein",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_whey_protein_vanille_tin_m_1.png",
+          "flavor": "Vanilla",
+          "weight": "750g",
+          "unit_price": "(£33.32/1kg)",
+          "price_current": 24.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 29.99,
+          "tracking_position": "1",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "1"
+        },
+        {
+          "cta_url": "/shape-shake-2-0",
+          "name": "Shape Shake 2.0",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_shape_shake_2_0_cookies_and_cream_tin_m_2.png",
+          "flavor": "Vanilla",
+          "weight": "900g",
+          "unit_price": "(£27.77/1kg)",
+          "price_current": 24.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "907"
+        },
+        {
+          "cta_url": "/protein-cream",
+          "name": "Protein Cream",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_protein_cream_hazelnut_whey_duo_m_1.png",
+          "flavor": "Hazelnut & Whey",
+          "weight": "200g",
+          "unit_price": "(£2.50/100g)",
+          "price_current": 4.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "855"
+        },
+        {
+          "cta_url": "/protein-cookie-12-pack",
+          "name": "Protein Cookie 12-Pack",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/f/s/fs_cookies_chocolate_chip_tray_desktop.png",
+          "flavor": "Chocolate Chip",
+          "weight": "50g",
+          "unit_price": "(£4.17/100g)",
+          "price_current": 29.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "956"
+        },
+        {
+          "cta_url": "/creatine-powder",
+          "name": "Creatine Powder",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/1/7/170522-creatine-pulver-desktop_1.png",
+          "flavor": null,
+          "weight": "150g",
+          "unit_price": "(£6.66/100g)",
+          "price_current": 9.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "18"
+        },
+        {
+          "cta_url": "/recovery-aminos",
+          "name": "Recovery aminos",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_recovery_aminos_waldfrucht_tin_m_1.png",
+          "flavor": "Wild Berries",
+          "weight": "400g",
+          "unit_price": "(£74.98/1kg)",
+          "price_current": 29.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "471"
+        },
+        {
+          "cta_url": "/vegan-protein",
+          "name": "Vegan Protein",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_vegan_protein_cookie_dough_tin_m_1.png",
+          "flavor": "Chocolate",
+          "weight": "750g",
+          "unit_price": "(£33.32/1kg)",
+          "price_current": 24.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "872"
+        },
+        {
+          "cta_url": "/proteinbars-protein-bar-12-pack",
+          "name": "Protein Bar 12-pack",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/1/8/180221_fs_protbar_multi_desktop.png",
+          "flavor": "Mango Milkshake",
+          "weight": "12 x 60g",
+          "unit_price": "(£3.47/100g)",
+          "price_current": 29.88,
+          "price_strikedout": 24.99,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "366"
+        },
+        {
+          "cta_url": "/protein-cream-bundle",
+          "name": "Protein Cream Bundle",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/1/9/191216_fs_fs_cream_multi_desktop_1.png",
+          "flavor": null,
+          "weight": "3 x 200g",
+          "unit_price": null,
+          "price_current": 14.97,
+          "price_strikedout": 12.99,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "857"
+        },
+        {
+          "cta_url": "/breakfast-bowl",
+          "name": "Breakfast Bowl",
+          "image_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/besteller-products/besteller_breakfast-bowl.png",
+          "flavor": "Raspberry Açaí",
+          "weight": "450g",
+          "unit_price": "(£37.76/1kg)",
+          "price_current": 16.99,
+          "price_strikedout": null,
+          "tracking_id": "test",
+          "tracking_va": "test",
+          "tracking_list": "test",
+          "tracking_name": "test",
+          "tracking_price": "test",
+          "tracking_metric1": 12,
+          "tracking_position": "test",
+          "tracking_dimension9": "test",
+          "tracking_dimension10": "test",
+          "tracking_dimension11": "test",
+          "tracking_dimension12": "test",
+          "tracking_dimension13": "test",
+          "tracking_dimension14": "test",
+          "tracking_dimension15": "test",
+          "add_cart_id": "1070"
+        }
+      ],
+      "primary": {
+        "title": "Bestsellers"
+      }
+    },
+    {
+      "slice_type": "editorial_block",
+      "slice_label": null,
+      "items": [
+        {
+          "type": "article",
+          "url": "/magazine/healthy-habits",
+          "time": "12 min",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2020/11/gesunde-gewohnheit.jpg",
+          "title": "Healthy Habits – Your path to a healthier lifestyle",
+          "headline": "Story",
+          "subtitle": "Learn how to build healthy habits.",
+          "review_rate": null,
+          "review_count": null,
+          "tracking_id": "Editorial article HP - Sep 2021",
+          "tracking_name": "Editorial block HP",
+          "tracking_creative": "CW37-2021 Editorial article"
+        },
+        {
+          "type": "recipe",
+          "url": "/magazine/fitness-recipes/chocolate-porridge",
+          "time": "15 min",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2021/05/Kokos-Porridge.jpg",
+          "title": "Creamy Protein Chocolate Porridge",
+          "headline": "Recipe",
+          "subtitle": "The breakfast classic for your morning routine",
+          "review_rate": null,
+          "review_count": null,
+          "tracking_id": "Editorial recipe HP - Sep 2021",
+          "tracking_name": "Editorial block HP",
+          "tracking_creative": "CW37-2021 Editorial recipe"
+        },
+        {
+          "type": "product",
+          "url": "/just-nuts",
+          "time": null,
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/habits/Just_nuts_-_product_editorial_block.png",
+          "title": "Just Nuts",
+          "headline": "Product",
+          "subtitle": "A delicious, clean, and nutty organic spread",
+          "review_rate": 4.3,
+          "review_count": 55,
+          "tracking_id": "Editorial product HP - Sep 2021",
+          "tracking_name": "Editorial block HP",
+          "tracking_creative": "CW37-2021 Editorial product"
+        }
+      ],
+      "primary": {
+        "tracking_category": "Editorial block HP navigation",
+        "intro_title": "Healthy habits for your everyday life",
+        "intro_author": "Leyla, ecotrophologist",
+        "intro_content": "Do you want to build healthy habits that align with your life to help you reach your goals? Come on in, we've got you covered. Everything you need to unlock a happier, healthier life: you'll find it here."
+      }
+    },
+    {
+      "slice_type": "content_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "type": "recipe",
+          "topic": "What's new",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2021/07/2.1.png",
+          "title": "Ocean Breakfast Bowl Recipe",
+          "url": "/magazine/fitness-recipes/ocean-breakfast-bowl",
+          "time": "10 min",
+          "badge_label": null,
+          "badge_type": null,
+          "cta_title": "See all",
+          "cta_url": "/magazine/fitness-recipes",
+          "cta_tracking_category": "Magazine content HP secondary buttons",
+          "cta_tracking_label": "All recipes",
+          "tracking_id": "Recipe HP 1 - Sep 2021",
+          "tracking_name": "Recipes HP",
+          "tracking_creative": "CW37-2021 Recipe most recent - ocean-breakfast-bowl"
+        },
+        {
+          "type": "recipe",
+          "topic": "Vegan",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2021/04/8.jpg",
+          "title": "Zoodle salad with peanut-coriander pesto",
+          "url": "/magazine/fitness-recipes/zoodle-salad",
+          "time": "20 min",
+          "badge_label": null,
+          "badge_type": null,
+          "cta_title": "See more",
+          "cta_url": "/magazine/recipes/vegane-recipes",
+          "cta_tracking_category": "Magazine content HP secondary buttons",
+          "cta_tracking_label": "Vegan recipes",
+          "tracking_id": "Recipe HP 2 - Sep 2021",
+          "tracking_name": "Recipes HP",
+          "tracking_creative": "CW37-2021 Recipe vegan - zoodle-salad"
+        },
+        {
+          "type": "recipe",
+          "topic": "Low carb",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2020/11/low_carb_zucchinikuchen.jpg",
+          "title": "Low-carb Chocolate Zucchini Cake",
+          "url": "/magazine/fitness-recipes/low-carb-chocolate-zucchini-cake",
+          "time": "60 min",
+          "badge_label": null,
+          "badge_type": null,
+          "cta_title": "See more",
+          "cta_url": "/magazine/recipes/low-carb-recipes",
+          "cta_tracking_category": "Magazine content HP secondary buttons",
+          "cta_tracking_label": "Low carb recipes",
+          "tracking_id": "Recipe HP 3 - Sep 2021",
+          "tracking_name": "Recipes HP",
+          "tracking_creative": "CW37-2021 Recipe low carb - low-carb-chocolate-zucchini-cake"
+        },
+        {
+          "type": "recipe",
+          "topic": "Lactose-free",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2021/05/Loaded-Hummus.jpg",
+          "title": "Loaded Hummus with Roasted Vegetables and Homemade Protein Naan",
+          "url": "/magazine/fitness-recipes/loaded-hummus",
+          "time": "40 min",
+          "badge_label": null,
+          "badge_type": null,
+          "cta_title": "See more",
+          "cta_url": "/magazine/recipes/lactose-free-recipes",
+          "cta_tracking_category": "Magazine content HP secondary buttons",
+          "cta_tracking_label": "Lactose-free recipes",
+          "tracking_id": "Recipe HP 4 - Sep 2021",
+          "tracking_name": "Recipes HP",
+          "tracking_creative": "CW37-2021 Recipe lactose free - loaded-hummus"
+        }
+      ],
+      "primary": {
+        "title": "Recipes",
+        "type": "recipes"
+      }
+    },
+    {
+      "slice_type": "step_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "title": "Protein powders",
+          "text": "Our proteins give your muscles optimal support for workouts. We use only the highest-quality whey protein from grass-fed cows and, for our vegan protein products, potent plant-based sources.",
+          "image_mobile": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/top_categories/210819_ONSITE_New_home_page_Part_1_01_Top_categories_Mobile_690x332_Protein_powders.jpg",
+          "image_desktop": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/top_categories/210819_ONSITE_New_home_page_Part_1_01_Top_categories_Desktop_690x332_Protein_powders.jpg",
+          "cta_title": "Shop now",
+          "cta_url": "/protein-powders",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "title": "Bars",
+          "text": "Whether you like them chocolatey, fruity, paleo or vegan, our bars are the ultimate anytime-anywhere snacks – packed with protein, energy and amazing taste.",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/top_categories/210819_ONSITE_New_home_page_Part_1_01_Top_categories_Mobile_690x332_Bars.jpg",
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/top_categories/210819_ONSITE_New_home_page_Part_1_01_Top_categories_Desktop_690x332_Bars.jpg",
+          "cta_title": "Buy bars",
+          "cta_url": "/bars",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "title": "Vegan",
+          "text": "From supplements to spreads, protein pancakes to pizza – our vast vegan range will see you through from morning workout to evening meal, and so much more.",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/top_categories/210819_ONSITE_New_home_page_Part_1_01_Top_categories_Mobile_690x332_Vegan.jpg",
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/top_categories/210819_ONSITE_New_home_page_Part_1_01_Top_categories_Desktop_690x332_Vegan.jpg",
+          "cta_title": "Shop vegan",
+          "cta_url": "/vegan",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        }
+      ],
+      "primary": {
+        "title": "Top categories",
+        "tracking_category": "Top categories HP navigation"
+      }
+    },
+    {
+      "slice_type": "content_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "type": "article",
+          "topic": "What's new",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2021/06/Malik.jpg",
+          "title": "Movement becomes art – Interview with movement artist Malik",
+          "url": "/magazine/interview-movement-artist-malik",
+          "time": "4 min",
+          "badge_label": null,
+          "badge_type": null,
+          "cta_title": "See all",
+          "cta_url": "/magazine",
+          "cta_tracking_category": "test",
+          "cta_tracking_label": "test",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "type": "article",
+          "topic": "Shape stories",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2020/11/julius-ise.jpg",
+          "title": "Lose Weight Without Hunger: 5 tips and 5 recipes to make it happen",
+          "url": "/magazine/lose-weight-without-hunger",
+          "time": "10 min",
+          "badge_label": null,
+          "badge_type": null,
+          "cta_title": "See more",
+          "cta_url": "/magazine/weight-loss",
+          "cta_tracking_category": "test",
+          "cta_tracking_label": "test",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "type": "workout",
+          "topic": "Some topic",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2020/11/200316_SEO_1.jpg",
+          "title": "Any title that can be longer",
+          "url": "google.com",
+          "time": "12 min",
+          "badge_label": "test",
+          "badge_type": "beginner",
+          "cta_title": "This is test",
+          "cta_url": "/test",
+          "cta_tracking_category": "test",
+          "cta_tracking_label": "test",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        }
+      ],
+      "primary": {
+        "title": "Articles",
+        "type": "articles"
+      }
+    },
+    {
+      "slice_type": "body_check",
+      "slice_label": null,
+      "items": [{}],
+      "primary": {
+        "title": "Free Body Check",
+        "subtitle": "Get more out of yourself!",
+        "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/body_check/Body_check_Desktop_930x424.jpg",
+        "cta_title": "Start the body check",
+        "cta_url": "/body-check",
+        "tracking_id": "Body Check HP Sep 2021",
+        "tracking_name": "Body Check HP",
+        "tracking_creative": "CW37-2021 Body Check Home",
+        "items": [
+          {
+            "type": "paragraph",
+            "text": "Personal BMI-Calculation",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Individual workout tips",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Helpful nutrition advice",
+            "spans": []
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "step_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "title": "Muscle Pack Small",
+          "text": "Stay strong with these 3 premium-quality products that will boost your protein intake and help get you through each intense training session.",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/Packs_Mobile_690x332_Muscle_small.jpg",
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/Packs_Desktop_690x332_Muscle_small.jpg",
+          "cta_title": "Buy now",
+          "cta_url": "/muscle-pack-small",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "title": "Shape Pack Medium",
+          "text": "All the products you need to make weight loss a part of your lifestyle – with premium ingredients, vitamins and minerals, delicious shakes and plant-based supplements.",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/210819_ONSITE_New_home_page_Part_1_03_Packs_Mobile_690x332_Shape_medium_B.jpg",
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/210819_ONSITE_New_home_page_Part_1_03_Packs_Desktop_690x332_Shape_medium_B.jpg",
+          "cta_title": "Buy now",
+          "cta_url": "/shape-pack-medium",
+          "tracking_id": "Pack HP 2 - Sep 2021",
+          "tracking_name": "Packs HP",
+          "tracking_creative": "CW37-2021 Shape pack medium"
+        },
+        {
+          "title": "Muscle Pack Medium",
+          "text": "The perfect gym-bag kit. There's a pre-workout booster for low energy levels; a refreshing post-workout drink; and plenty of protein to top up your intake and power you on.",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/210819_ONSITE_New_home_page_Part_1_03_Packs_Mobile_690x332_Muscle_medium_B.jpg",
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/210819_ONSITE_New_home_page_Part_1_03_Packs_Desktop_690x332_Muscle_medium_B.jpg",
+          "cta_title": "Buy now",
+          "cta_url": "/muscle-pack-medium",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "title": "Shape Pack Small",
+          "text": "Our 3-piece Shape Pack supports your weight-loss goals, with delicious, easy solutions that bring real results.",
+          "image_mobile_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/210819_ONSITE_New_home_page_Part_1_03_Packs_Mobile_690x332_Shape_small_B.jpg",
+          "image_desktop_url": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/packs/210819_ONSITE_New_home_page_Part_1_03_Packs_Mobile_690x332_Shape_small_B.jpg",
+          "cta_title": "Buy now",
+          "cta_url": "/shape-pack-small",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        }
+      ],
+      "primary": {
+        "title": "Essential packs",
+        "tracking_category": "Packs HP navigation"
+      }
+    },
+    {
+      "slice_type": "content_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "type": "workout",
+          "topic": "What's new",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/workouts/workout1.jpg",
+          "title": "Heavens Peak III",
+          "url": "/magazine/workout/heavens-peak-3",
+          "time": "30 min",
+          "badge_label": "Advanced",
+          "badge_type": "advanced",
+          "cta_title": "See all",
+          "cta_url": "/magazine/workouts",
+          "cta_tracking_category": "test",
+          "cta_tracking_label": "test",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "type": "workout",
+          "topic": "HIIT",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2020/11/Workout-Proxima-Centauri-scaled-1.jpg",
+          "title": "Proxima Centauri I",
+          "url": "/magazine/workout/proxima-centauri-1",
+          "time": "30 min",
+          "badge_label": "Beginner",
+          "badge_type": "beginner",
+          "cta_title": "See more",
+          "cta_url": "/magazine/workouts/beginner",
+          "cta_tracking_category": "test",
+          "cta_tracking_label": "test",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "type": "workout",
+          "topic": "Station training",
+          "image": "https://www.foodspring.co.uk/magazine/wp-content/uploads/2020/11/Workout-Sculptor-scaled-1.jpg",
+          "title": "Sculptor II",
+          "url": "/magazine/workout/sculptor-2",
+          "time": "30 min",
+          "badge_label": "Intermediate",
+          "badge_type": "intermediate",
+          "cta_title": "See more",
+          "cta_url": "/magazine/workouts/intermediate",
+          "cta_tracking_category": "test",
+          "cta_tracking_label": "test",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        },
+        {
+          "type": "workout",
+          "topic": "HIIT",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/homepage/workouts/workout4.jpg",
+          "title": "Perseus III",
+          "url": "/magazine/workout/perseus-3",
+          "time": "30 min",
+          "badge_label": "Advanced",
+          "badge_type": "advanced",
+          "cta_title": "See more",
+          "cta_url": "/magazine/workouts/advanced",
+          "cta_tracking_category": "test",
+          "cta_tracking_label": "test",
+          "tracking_id": "test",
+          "tracking_name": "test",
+          "tracking_creative": "test"
+        }
+      ],
+      "primary": {
+        "title": "Workouts",
+        "type": "workouts"
+      }
+    },
+    {
+      "slice_type": "footnote",
+      "slice_label": null,
+      "items": [{}],
+      "primary": {
+        "title": "* Weight loss with Shape Shake 2.0: Replacing two daily meals with one Shape Shake 2.0 each contributes to weight loss as part of a low-calorie diet. Replacing a meal helps you maintain weight loss. The product fulfills the intended purpose only in the context of a low-calorie diet. A low-calorie diet must also include other foods. Make sure to drink enough fluids every day. Make sure to eat a varied and balanced diet and maintain a healthy lifestyle. ** Contains naturally occuring sugars."
+      }
+    }
+  ]
+}

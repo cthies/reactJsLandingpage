@@ -1,0 +1,26 @@
+.wrapper {
+  margin: 3rem 0;
+}
+.cardHeadline {
+  margin-bottom: 1.6rem;
+}
+.headlineWrapper {
+  display: flex;
+  max-width: 95%;
+  align-items: baseline;
+}
+@media (min-width: 768px) {
+  .headlineWrapper {
+    max-width: 100%;
+  }
+}
+.allResults {
+  color: var(--color-common-black);
+  font-size: 1.4rem;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .allResults {
+    padding-right: 20px;
+  }
+}

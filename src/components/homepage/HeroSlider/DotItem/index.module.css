@@ -1,0 +1,17 @@
+.progressbar {
+  margin-bottom: 12px;
+}
+@mixin desktop {
+  .progressbar {
+    margin-bottom: 5px;
+  }
+}
+.title {
+  text-align: start;
+}
+.dotItem {
+  color: var(--color-text-disabled);
+}
+.dotItemActive {
+  color: var(--color-common-black);
+}

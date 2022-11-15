@@ -1,0 +1,25 @@
+.badge {
+  border-radius: 100px;
+  padding: 4px 12px;
+  display: inline;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: #2e2f2f;
+}
+
+.beginner {
+  background-color: #abe8c8;
+}
+
+.intermediate {
+  background-color: #ffe09c;
+}
+
+.advanced {
+  background-color: #f9c7a3;
+}

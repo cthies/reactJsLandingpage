@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.emptyCount {
+  display: none;
+}
+
+.count {
+  position: absolute;
+  top: 12px;
+  right: -6px;
+  background: var(--color-common-black);
+  color: var(--color-common-white);
+  font-size: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.content {
+  width: 360px;
+  font-size: 14px;
+
+  :global(.btn) {
+  }
+}
+
+@mixin mobile {
+  .content {
+    min-width: 300px;
+  }
+  .count {
+    top: 6px;
+    right: 0px;
+  }
+}

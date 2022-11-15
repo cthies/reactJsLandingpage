@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 100vw;
+  background-color: var(--color-common-black);
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.video {
+  flex: 1;
+}

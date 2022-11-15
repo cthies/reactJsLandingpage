@@ -1,0 +1,9 @@
+{
+  "localhost": {
+    "appDomain": "origin-dev.foodspring.co.uk",
+    "defaultLanguage": "en",
+    "region": "uk",
+    "country": "GB",
+    "currency": "GBP"
+  }
+}

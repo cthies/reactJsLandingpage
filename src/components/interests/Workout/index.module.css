@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: var(--color-secondary-light);
+}
+.intro {
+  margin-bottom: 4rem;
+}
+@media (min-width: 600px) {
+  .intro {
+    margin-bottom: 4rem;
+  }
+}
+.footerContainer {
+  margin: 0;
+  text-align: right;
+}
+@mixin desktop {
+  .footerContainer {
+    margin: 2rem 0 0;
+  }
+}
+.footerText {
+  color: inherit;
+  text-decoration-color: inherit;
+}
+.subtitle {
+  padding-top: 1.6rem;
+}
+.cardsWrapper {
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+.imageContainer {
+  position: relative;
+  margin: 12px 0;
+  width: 100%;
+  padding-top: 60%;
+}
+
+.clickArea {
+  text-decoration: none;
+  color: inherit;
+}
+
+@mixin mobile {
+  .item {
+    padding: 12px 0 24px;
+  }
+}

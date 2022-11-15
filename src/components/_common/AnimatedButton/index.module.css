@@ -1,0 +1,40 @@
+.addToCartBtn {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.label {
+  float: left;
+  width: 100%;
+  display: block;
+  transition: all 0.4s linear 0s;
+}
+.label:after,
+.label :before {
+  box-sizing: border-box;
+}
+.animatedLabel {
+  transition: all 0.4s linear 0s;
+  margin-left: -68rem;
+}
+.addedlabel {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-left: 0rem;
+  margin-right: -68rem;
+}
+.addedlabel:after,
+.addedlabel :before {
+  box-sizing: border-box;
+}
+.addedlabelHidden {
+  transition: all 0.4s linear 0s;
+  margin-left: 20rem;
+}
+.icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block !important;
+  margin-left: 0.4rem;
+}

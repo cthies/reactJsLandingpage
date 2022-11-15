@@ -1,0 +1,49 @@
+.title {
+  margin-bottom: 16px;
+}
+
+/* Slider */
+.container :global {
+  .slick-track {
+    display: flex !important;
+  }
+
+  .slick-slide {
+    display: flex;
+    height: auto !important;
+    margin: 0 12px;
+  }
+
+  .slick-slide > div {
+    height: 100%;
+  }
+
+  .slick-list {
+    margin: 0 -12px;
+  }
+
+  .slick-disabled {
+    display: none;
+  }
+  .slick-prev {
+    left: -55px;
+  }
+
+  .slick-next {
+    right: -55px;
+  }
+
+  @media (max-width: 1024px) {
+    .slick-slide {
+      margin: 0 4px;
+    }
+    .slick-list {
+      margin: 0 -4px;
+    }
+  }
+}
+
+.footerContainer {
+  margin: 2rem 0 0;
+  text-align: right;
+}

@@ -1,0 +1,37 @@
+{{- $hostname := .Values.hostName -}}
+
+{{- $language := dict -}}
+{{- $_ := set $language (printf "%s.shop-next.dev-ec1.foodspring.com" $hostname) .Values.default.defaultLanguage -}}
+{{- range $key, $val := .Values.regions -}}
+{{- $_ := set $language (printf "%s.%s.shop-next.dev-ec1.foodspring.com" $key $hostname) $val.defaultLanguage -}}
+{{- end -}}
+
+{{- $features := dict -}}
+{{- $_ := set $features (printf "%s.shop-next.dev-ec1.foodspring.com" $hostname) (default (dict) .Values.default.features) -}}
+{{- range $key, $val := .Values.regions -}}
+{{- $_ := set $features (printf "%s.%s.shop-next.dev-ec1.foodspring.com" $key $hostname) (default (dict) $val.features) -}}
+{{- end -}}
+
+{{- $all := dict -}}
+{{- $entry := (.Values.default | mustDeepCopy) -}}
+{{- $_ := unset $entry "features" -}}
+{{- $_ := set $all (printf "%s.shop-next.dev-ec1.foodspring.com" $hostname) $entry -}}
+{{- range $key, $val := .Values.regions -}}
+{{- $entry := ($val | mustDeepCopy) -}}
+{{- $_ := set $entry "region" $key -}}
+{{- $_ := unset $entry "features" -}}
+{{- $_ := set $all (printf "%s.%s.shop-next.dev-ec1.foodspring.com" $key $hostname) $entry -}}
+{{- end -}}
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "shop-next-mapping"
+  namespace: "{{ .Values.envName }}"
+data:
+  language.json: |
+    {{- mustToPrettyJson $language | nindent 4}}
+  features.json: |
+    {{- mustToPrettyJson $features | nindent 4}}
+  "42.json": |
+    {{- mustToPrettyJson $all | nindent 4}}

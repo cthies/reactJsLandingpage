@@ -1,0 +1,13 @@
+.titleContainer {
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+.titleCenter {
+  text-align: center;
+}
+.dotItemInactive {
+  color: rgb(46, 47, 47, 0.6);
+}
+.dotItemActive {
+  color: var(--color-text-primary);
+}

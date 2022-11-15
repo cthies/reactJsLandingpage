@@ -1,0 +1,26 @@
+.control {
+  height: 44px;
+  line-height: 44px;
+  font-size: 12px;
+  background: var(--color-secondary-light);
+  display: flex;
+  width: 100%;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+
+.control img {
+  margin: 6px;
+}
+
+@media (min-width: 1025px) {
+  .control {
+    background-color: transparent;
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+}

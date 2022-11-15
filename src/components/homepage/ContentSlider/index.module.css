@@ -1,0 +1,33 @@
+.title {
+  margin-bottom: 16px;
+}
+
+.container :global {
+  .slick-track {
+    display: flex !important;
+  }
+
+  .slick-slide {
+    display: flex;
+    height: auto !important;
+    margin: 0 12px;
+  }
+
+  .slick-slide div {
+    height: 100%;
+  }
+
+  .slick-list {
+    margin: 0 -12px;
+  }
+
+  @mixin mobile {
+    .slick-slide {
+      margin: 0 4px;
+    }
+
+    .slick-list {
+      margin: 0 -4px;
+    }
+  }
+}

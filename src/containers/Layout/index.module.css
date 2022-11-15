@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 152px;
+
+  &.checkoutContainer {
+    margin-top: 100px;
+  }
+
+  &.noHeaderContainer {
+    margin-top: 0px;
+  }
+}
+
+@mixin mobile {
+  .container {
+    margin-top: 52px;
+
+    &.checkoutContainer {
+      margin-top: 52px;
+    }
+  }
+}
+
+:global(#pp-express-modal) {
+  .container {
+    margin-top: 0 !important;
+  }
+}
+
+.container > :global(#header) {
+  display: block;
+  order: 1;
+}
+
+.container > :global(#main) {
+  order: 2;
+  flex: 1;
+}
+
+.container > :global(#footer) {
+  display: block;
+  order: 3;
+}
+
+.container :global(#page.site) {
+  padding-top: 0 !important;
+}
+
+.container :global(.js-brexit-msg.brexit-msg) {
+  order: 2;
+}

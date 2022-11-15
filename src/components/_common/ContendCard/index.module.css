@@ -1,0 +1,90 @@
+.mainContainer {
+  height: 100%;
+}
+
+.cardWrapper {
+  width: 100%;
+  margin: 0;
+}
+
+@mixin desktop {
+  .cardWrapper {
+    margin: 0 2rem 0 0;
+  }
+}
+
+@mixin desktop {
+  .cardWrapper:hover .image {
+    transform: scale(1.15);
+  }
+}
+
+.imageBlock {
+  width: 100%;
+  position: relative;
+  max-height: 17rem;
+  min-height: 17rem;
+}
+
+.image {
+  transition: transform 200ms;
+}
+
+.clickArea {
+  color: inherit;
+  text-decoration: none;
+}
+
+.textBlock {
+  flex: 1;
+  padding: 0 1.6rem 1.6rem;
+}
+
+.titleContainer {
+  flex: 1 0 auto;
+  width: 100%;
+  padding: 1rem 0 0.5rem;
+  overflow: hidden;
+  min-height: 8rem;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+@mixin desktop {
+  .titleContainer {
+    min-height: 6rem;
+  }
+}
+
+.iconContainer {
+  flex: 0;
+}
+
+.iconContainer div {
+  height: auto;
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.badge {
+  align-self: flex-start;
+}
+
+.badgeWrapper {
+  flex: 1;
+  display: inline-flex;
+  min-width: 10rem;
+  max-width: fit-content;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  justify-content: flex-start;
+}
+
+@mixin desktop {
+  .badgeWrapper {
+    min-width: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "ephemeral-ingress"
+  namespace: "{{ .Values.envName }}"
+data:
+  values.yaml: |
+      ambassador:
+        ambassadorId:
+          - ambassador-public
+        enabled: true
+        hosts:
+          {{- include "shop-next-ephemeral-environment.hosts" . | nindent 10 }}
+        acmeProvider:
+          authority: https://acme-v02.api.letsencrypt.org/directory
+          email: cert@foodspring.com
+        mappings:
+          {{- include "shop-next-ephemeral-environment.mappings" . | nindent 10 }}

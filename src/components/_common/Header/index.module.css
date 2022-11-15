@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: top 200ms ease-in-out;
+}
+
+@mixin mobile {
+  .header {
+    background: var(--color-common-white);
+    border-bottom: 1px solid var(--color-common-black);
+    z-index: 90;
+  }
+}
+
+:global(#pp-express-modal) {
+  .header {
+    display: none !important;
+  }
+}
+
+.hidden {
+  top: -100%;
+}
+
+.header :global(.btn) {
+  height: auto;
+  line-height: initial;
+  padding: 12px 17px;
+}

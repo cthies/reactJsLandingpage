@@ -1,0 +1,38 @@
+.contentWrapper {
+  padding: 1rem 0 1rem 1rem;
+  max-width: 100vw;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+@media (min-width: 600px) {
+  .contentWrapper {
+    padding: 2rem 0 1rem 1rem;
+  }
+}
+@media (min-width: 960px) {
+  .contentWrapper {
+    padding: 3rem 3rem 1rem 1.5rem;
+    max-width: 70vw;
+    min-width: 70vw;
+  }
+}
+@media (min-width: 1280px) {
+  .contentWrapper {
+    padding: 4rem 8rem 1rem 2rem;
+    max-width: 60vw;
+    min-width: 60vw;
+  }
+}
+@media (min-width: 1580px) {
+  .contentWrapper {
+    padding: 4rem 10rem 1rem 2.5rem;
+    max-width: 50vw;
+    min-width: 50vw;
+  }
+}
+.closeBtnWrapper {
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

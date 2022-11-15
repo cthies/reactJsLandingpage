@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container a {
+  color: #2e2f2f;
+  text-decoration: none;
+}
+
+.menu {
+  white-space: nowrap;
+  margin: -20px -20px -20px;
+  font-size: 14px;
+
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid #c3c3c2;
+
+    &:hover {
+      color: var(--color-success-dark);
+    }
+
+    &:active {
+      color: var(--color-light-green);
+    }
+
+    &:global(.btn) {
+      margin: 10px;
+      width: auto;
+      text-align: center;
+      color: white;
+    }
+  }
+}

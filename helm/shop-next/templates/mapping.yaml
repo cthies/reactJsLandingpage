@@ -1,0 +1,34 @@
+{{- if .Values.ambassador.enabled -}}
+{{- $fullName := include "shop-next.fullname" . -}}
+{{- $svcPort := .Values.service.port -}}
+{{- range .Values.ambassador.mappings }}
+---
+{{$data := dict "fullName" $fullName "el" . }}
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: {{ include "shop-next.mappingName" $data}}
+spec:
+  {{- if $.Values.ambassador.ambassadorId }}
+  {{- if kindIs "string" $.Values.ambassador.ambassadorId }}
+  ambassador_id: {{ $.Values.ambassador.ambassadorId }}
+  {{- else }}
+  ambassador_id:
+    {{- .ambassadorId | default $.Values.ambassador.ambassadorId | toYaml | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  prefix: {{ .prefix }}
+  host: {{ .host }}
+  service: {{ $fullName }}:{{ $svcPort }}
+  connect_timeout_ms: 60000
+  # Keep in sync with deployment grace and internal grace
+  timeout_ms: 60000
+  add_request_headers:
+    x-request-id:
+      append: false
+      value: "%REQ(x-amz-cf-id)%"
+  retry_policy:
+    retry_on: "connect-failure"
+    num_retries: 3
+  {{- end }}
+{{- end }}

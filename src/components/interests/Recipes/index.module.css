@@ -1,0 +1,7 @@
+.wrapper {
+  background-color: var(--color-secondary-light);
+}
+
+.card {
+  background-color: var(--color-common-white);
+}

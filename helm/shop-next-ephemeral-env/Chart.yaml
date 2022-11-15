@@ -1,0 +1,7 @@
+apiVersion: v2
+name: shop-next-ephemeral-environment
+description: Helm chart to prepare ephemeral environment for pull-request testing
+
+type: application
+
+version: 0.1.0

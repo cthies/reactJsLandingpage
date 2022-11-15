@@ -1,0 +1,33 @@
+{
+    "refs": [{
+        "isMasterRef": true,
+        "ref": "masterRef"
+    }],
+    "tags": [],
+    "types": [],
+    "languages": [],
+    "forms": {
+        "everything": {
+            "action": "prismic",
+            "fields": {
+                "lang": "MOCK",
+                "ref": "REF",
+                "page": 1,
+                "pageSize": 1,
+                "q": "q"
+            }
+        }
+    },
+    "results": [
+        {
+            "data": {
+                 "title": "£15 for you & your friends",
+                 "subtitle": "Invite your friends and get them £15 off their first order. Learn more",
+                 "list_copy": "Copy the link",
+                 "list_share": "Share with your friends",
+                 "list_discount": "Discount for you and your friends",
+                 "copy_button": "Copy"
+             }
+        }
+    ]
+}

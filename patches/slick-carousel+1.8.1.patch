@@ -1,0 +1,37 @@
+diff --git a/node_modules/slick-carousel/slick/slick-theme.css b/node_modules/slick-carousel/slick/slick-theme.css
+index 1232fca..07cede3 100644
+--- a/node_modules/slick-carousel/slick/slick-theme.css
++++ b/node_modules/slick-carousel/slick/slick-theme.css
+@@ -5,16 +5,6 @@
+     background: #fff url('./ajax-loader.gif') center center no-repeat;
+ }
+ 
+-/* Icons */
+-@font-face
+-{
+-    font-family: 'slick';
+-    font-weight: normal;
+-    font-style: normal;
+-
+-    src: url('./fonts/slick.eot');
+-    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+-}
+ /* Arrows */
+ .slick-prev,
+ .slick-next
+@@ -66,7 +56,6 @@
+ .slick-prev:before,
+ .slick-next:before
+ {
+-    font-family: 'slick';
+     font-size: 20px;
+     line-height: 1;
+ 
+@@ -177,7 +166,6 @@
+ }
+ .slick-dots li button:before
+ {
+-    font-family: 'slick';
+     font-size: 6px;
+     line-height: 20px;
+ 

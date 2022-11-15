@@ -1,0 +1,70 @@
+.root {
+  background: var(--color-primary-main-light);
+  font-size: 14px;
+}
+
+.container .title {
+  margin-bottom: 18px;
+}
+
+.container .subtitle {
+  margin-bottom: 24px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  .listIcon {
+    position: relative;
+    top: -2px;
+  }
+
+  .discountIcon {
+    margin: 0 4px;
+    top: -1px;
+  }
+}
+
+.inputContainer {
+  display: flex;
+  margin: 0 0 8px;
+
+  .input {
+    padding: 0 16px;
+    line-height: 48px;
+    height: 48px;
+    font-size: 14px;
+    vertical-align: middle;
+    border-radius: 0;
+    width: 70%;
+    border: 1px solid var(--color-common-black);
+  }
+}
+
+.button {
+  width: 30%;
+}
+
+.icon {
+  margin: 0 8px 0 0;
+}
+
+@mixin desktop {
+  .inputContainer {
+    margin: 0 0 24px;
+
+    .input {
+      width: 60%;
+    }
+  }
+
+  .button {
+    width: 20%;
+  }
+}

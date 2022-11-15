@@ -1,0 +1,148 @@
+definitions:
+  services:
+    docker:
+      memory: 3072
+
+clone:
+  depth: full
+
+x-build-default: &build-default
+  step:
+    name: 'Build container'
+    services:
+      - docker
+    caches:
+      - docker
+    script:
+      - pipe: sonarsource/sonarcloud-scan:1.2.1
+      - pipe: sonarsource/sonarcloud-quality-gate:0.1.4
+      - export BUILD_ID="build-$BITBUCKET_BUILD_NUMBER"
+      - >
+        docker build --build-arg BUILD_ID
+        --build-arg DATADOG_SITE
+        --build-arg DATADOG_API_KEY
+        -t shop_next .
+      - pipe: atlassian/aws-ecr-push-image:1.3.0
+        variables:
+          IMAGE_NAME: shop_next
+          TAGS: $BUILD_ID
+
+x-build-release: &build-release
+  step:
+    name: 'Build container (release)'
+    services:
+      - docker
+    caches:
+      - docker
+    script:
+      - pipe: sonarsource/sonarcloud-scan:1.2.1
+      - pipe: sonarsource/sonarcloud-quality-gate:0.1.4
+      - export BUILD_ID="release-$BITBUCKET_BUILD_NUMBER"
+      - >
+        docker build --build-arg BUILD_ID
+        --build-arg DATADOG_SITE
+        --build-arg DATADOG_API_KEY
+        -t shop_next .
+      - pipe: atlassian/aws-ecr-push-image:1.3.0
+        variables:
+          IMAGE_NAME: shop_next
+          TAGS: $BUILD_ID
+
+x-deploy-develop: &deploy-develop
+  step:
+    name: Deploy to develop
+    deployment: development-default
+    script:
+      - export BUILD_ID="build-$BITBUCKET_BUILD_NUMBER"
+      - pipe: foodspring-evolution/aws-eks-helm:1.0.0
+        variables:
+          DEBUG: 'true'
+          CLUSTER_NAME: development-default-cluster
+          HELM_NAMESPACE: shop-next-development-default
+          HELM_VALUES_CONFIG_MAP: environment
+          HELM_COMMAND: 'upgrade --install shop-next ./helm/shop-next/ --atomic --wait --set image.tag=$BUILD_ID'
+
+x-deploy-staging: &deploy-staging
+  step:
+    name: Deploy to staging
+    deployment: staging-default
+    script:
+      - export BUILD_ID="build-$BITBUCKET_BUILD_NUMBER"
+      - pipe: foodspring-evolution/aws-eks-helm:1.0.0
+        variables:
+          DEBUG: 'true'
+          CLUSTER_NAME: development-default-cluster
+          HELM_NAMESPACE: shop-next-staging-default
+          HELM_VALUES_CONFIG_MAP: environment
+          HELM_COMMAND: 'upgrade --install shop-next ./helm/shop-next/ --atomic --wait --set image.tag=$BUILD_ID'
+
+x-deploy-main: &deploy-main
+  step:
+    name: Deploy to main
+    deployment: production-default
+    trigger: manual
+    script:
+      - export BUILD_ID="release-$BITBUCKET_BUILD_NUMBER"
+      - pipe: foodspring-evolution/aws-eks-helm:1.0.0
+        variables:
+          DEBUG: 'true'
+          CLUSTER_NAME: production-default-cluster
+          HELM_NAMESPACE: shop-next-production-default
+          HELM_VALUES_CONFIG_MAP: environment
+          HELM_COMMAND: 'upgrade --install shop-next ./helm/shop-next/ --atomic --wait --set image.tag=$BUILD_ID'
+
+x-create-ephemeral-environment: &create-ephemeral-environment
+  step:
+    name: Create environment
+    script:
+      - export BUILD_ID="build-$BITBUCKET_BUILD_NUMBER"
+      - export PROJECT=shop-next
+      - export ENV_NAME=$(./pipelines/env_name)
+      - export HOSTNAME=$(./pipelines/hostname)
+      - export CLUSTER_NAME=development-default-cluster
+      - pipe: foodspring-evolution/aws-eks-helm:1.0.0
+        variables:
+          DEBUG: 'true'
+          CLUSTER_NAME: $CLUSTER_NAME
+          HELM_COPY_NAMESPACE: $ENV_NAME
+          HELM_NAMESPACE: shop-next-ephemeral-shared
+          # HELM_COPY_SECRET: ephemeral-environment
+          HELM_COPY_CONFIG_MAP: ephemeral-environment
+          HELM_COMMAND: 'upgrade --install --history-max 3 $ENV_NAME ./helm/shop-next-ephemeral-env/ --wait --set envName=$ENV_NAME --set image.tag=$BUILD_ID --set hostName=$HOSTNAME'
+      - pipe: foodspring-evolution/aws-eks-helm:1.0.0
+        variables:
+          DEBUG: 'true'
+          CLUSTER_NAME: $CLUSTER_NAME
+          HELM_VALUES_CONFIG_MAP: ephemeral-environment,ephemeral-ingress
+          HELM_NAMESPACE: $ENV_NAME
+          HELM_COMMAND: 'upgrade --install --history-max 3 shop-next ./helm/shop-next/ --atomic --wait --set image.tag=$BUILD_ID'
+      - echo "-------- https://$HOSTNAME.shop-next.dev-ec1.foodspring.com ---------"
+      - export EPHEMERAL_URL="https://$HOSTNAME.shop-next.dev-ec1.foodspring.com"
+      - export BUILD_STATUS="{\"key\":\"ephemeral\", \"state\":\"SUCCESSFUL\", \"name\":\"Ephemeral Env\", \"url\":\"${EPHEMERAL_URL}\"}"
+      - curl -H "Content-Type:application/json" -X POST --user "${BB_AUTH_STRING}" -d "${BUILD_STATUS}" "https://api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/${BITBUCKET_REPO_SLUG}/commit/${BITBUCKET_COMMIT}/statuses/build"
+      - export DATADOG_URL="https://datadoghq.eu/logs?query=kube_namespace%3A${ENV_NAME}"
+      - export BUILD_STATUS="{\"key\":\"datadog\", \"state\":\"SUCCESSFUL\", \"name\":\"Logs\", \"url\":\"${DATADOG_URL}\"}"
+      - curl -H "Content-Type:application/json" -X POST --user "${BB_AUTH_STRING}" -d "${BUILD_STATUS}" "https://api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/${BITBUCKET_REPO_SLUG}/commit/${BITBUCKET_COMMIT}/statuses/build"
+
+x-empty-step: &skip
+  step:
+    script:
+      - echo "skip this branch"
+
+pipelines:
+  branches:
+    develop:
+      - <<: *build-default
+      - <<: *deploy-develop
+    main:
+      - <<: *build-release
+      - <<: *deploy-main
+  pull-requests:
+    '**':
+      - <<: *build-default
+      - <<: *create-ephemeral-environment
+    develop:
+      - <<: *skip
+    'release/*':
+      - <<: *build-default
+      - <<: *deploy-staging

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for file in '.env' '.env.local'; do
+  if [ -f $file ]; then
+    set -a
+    source $file
+    set +a
+  fi
+done

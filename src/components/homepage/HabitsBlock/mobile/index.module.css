@@ -1,0 +1,33 @@
+.container :global {
+  .slick-list {
+    z-index: 1;
+  }
+
+  .slick-dots ul {
+    margin: 0 -2rem 0 0;
+    padding: 0;
+  }
+
+  .slick-dots li {
+    width: calc((100% - (2rem * 3)) / 12 * 4);
+    margin: 0 2rem 0 0;
+  }
+
+  .slick-dots li:last-child {
+    margin: 0;
+  }
+}
+
+.container {
+  background-color: var(--color-primary-main);
+}
+.introBlock {
+  margin-bottom: 0.5rem;
+}
+.dotsWrapper {
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+.dotsContainer {
+  transform: translateY(-7rem);
+}

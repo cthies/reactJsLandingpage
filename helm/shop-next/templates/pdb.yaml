@@ -1,0 +1,18 @@
+{{- if .Values.pdb.enabled }}
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: {{ include "shop-next.fullname" . }}
+  labels:
+    {{- include "shop-next.labels" . | nindent 4 }}
+spec:
+  selector:
+    matchLabels:
+      {{- include "shop-next.selectorLabels" . | nindent 6 }}
+{{- if hasKey .Values.pdb "minAvailable" }}
+  minAvailable: {{ .Values.pdb.minAvailable }}
+{{- end }}
+{{- if hasKey .Values.pdb "maxUnavailable" }}
+  maxUnavailable: {{ .Values.pdb.maxUnavailable }}
+{{- end }}
+{{- end }}

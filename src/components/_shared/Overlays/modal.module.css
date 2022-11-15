@@ -1,0 +1,29 @@
+.container {
+  width: 100vw;
+  background-color: var(--color-common-black);
+
+  &.success {
+    background-color: var(--color-success-dark);
+  }
+
+  &.error {
+    background-color: var(--color-error-dark);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/** Required to remove closeButton hover effect from magazine pages **/
+.closeBtn:hover {
+  color: unset;
+  background-color: unset;
+  box-shadow: none;
+}

@@ -1,0 +1,50 @@
+.container :global {
+  .slick-list {
+    z-index: 1;
+  }
+
+  .slick-dots ul {
+    margin: 0 -2rem 0 0;
+    padding: 0;
+  }
+
+  .slick-dots li {
+    width: calc((100% - (2rem * 4)) / 12 * 3);
+    margin: 0 2rem 0 0;
+  }
+
+  .slick-dots li:last-child {
+    margin: 0;
+  }
+
+  @media (min-width: 1025px) {
+    .slick-dots ul {
+      margin: 0;
+      padding: 0;
+    }
+    .slick-dots li {
+      width: calc((100% - (4rem * 4)) / 12 * 2);
+      margin: 0 3rem 0 0;
+    }
+  }
+}
+
+.titleContainer {
+  margin-bottom: 2.4rem;
+}
+.dotsWrapper {
+  height: 3rem;
+}
+@mixin desktop {
+  .dotsWrapper {
+    height: 8rem;
+  }
+}
+.dotsContainer {
+  transform: translateY(-3rem);
+}
+@mixin desktop {
+  .dotsContainer {
+    transform: translateY(6rem);
+  }
+}

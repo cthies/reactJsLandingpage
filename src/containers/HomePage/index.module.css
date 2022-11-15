@@ -1,0 +1,7 @@
+.mainContainer {
+  background-color: var(--color-common-white);
+}
+.footnote {
+  font-size: 12px;
+  background-color: var(--color-secondary-light);
+}

@@ -1,0 +1,102 @@
+envName: shop-next-ephemeral-env
+hostName: shorter-ephemeral-env
+
+default:
+  appDomain: origin-dev.foodspring.co.uk
+  defaultLanguage: en
+  region: uk
+  country: GB
+  currency: GBP
+  features:
+    "home-page": true
+    "ilp": true
+
+#regions:
+#  region:
+#    appDomain: origin-dev.foodspring.com
+#    defaultLanguage: lang
+#    country: COUNTRY
+#    currency: GBP
+#    features:
+#      feature-1: true
+#      feature-2: true
+
+regions:
+  de:
+    appDomain: "origin-dev.foodspring.de"
+    defaultLanguage: "de"
+    features:
+      "home-page": true
+      "ilp": true
+  at:
+    appDomain: "origin-dev.foodspring.at"
+    defaultLanguage: "de"
+    features:
+      "home-page": true
+      "ilp": true
+  ch:
+    appDomain: "origin-dev.foodspring.ch"
+    defaultLanguage: "de"
+    features:
+      "home-page": true
+      "ilp": true
+  se:
+    appDomain: "origin-dev.foodspring.se"
+    defaultLanguage: "sv"
+    features:
+      "home-page": true
+      "ilp": true
+  nl:
+    appDomain: "origin-dev.foodspring.nl"
+    defaultLanguage: "nl"
+    features:
+      "home-page": true
+      "ilp": true
+  fi:
+    appDomain: "origin-dev.foodspring.fi"
+    defaultLanguage: "en"
+    features:
+      "home-page": true
+      "ilp": true
+  dk:
+    appDomain: "origin-dev.foodspring.dk"
+    defaultLanguage: "en"
+    features:
+      "home-page": true
+      "ilp": true
+  uk:
+    appDomain: "origin-dev.foodspring.co.uk"
+    defaultLanguage: "en"
+    features:
+      "home-page": true
+      "ilp": true
+  be:
+    appDomain: "origin-dev.foodspring.be"
+    defaultLanguage: "fr"
+    features:
+      "home-page": true
+      "ilp": true
+  fr:
+    appDomain: "origin-dev.foodspring.fr"
+    defaultLanguage: "fr"
+    features:
+      "home-page": true
+      "ilp": true
+  it:
+    appDomain: "origin-dev.foodspring.it"
+    defaultLanguage: "it"
+    features:
+      "home-page": true
+      "ilp": true
+  pl:
+    appDomain: "origin-dev.foodspring.pl"
+    defaultLanguage: "en"
+    features:
+      "home-page": true
+      "ilp": true
+  es:
+    appDomain: "origin-dev.foodspring.es"
+    defaultLanguage: "es"
+    features:
+      "home-page": true
+      "ilp": true

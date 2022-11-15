@@ -1,0 +1,170 @@
+.root {
+  background: var(--color-primary-main-light);
+  color: var(--color-common-black);
+
+  &.home {
+    background: var(--color-success-light);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+
+  &.title {
+    margin-right: 4.8rem;
+    padding-left: 0rem;
+  }
+
+  & .subtitle {
+    margin: 0 0 1rem;
+  }
+
+  & div {
+    flex: 1;
+  }
+
+  @media (min-width: 500px) {
+    text-align: center;
+  }
+}
+
+.modalContent {
+  color: var(--color-common-white);
+}
+
+.modalContent :global {
+  .messages {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .messages > li::before {
+    display: none;
+  }
+
+  .success-msg {
+    font-size: 14px;
+    list-style-type: none;
+    background-color: transparent !important;
+  }
+
+  .success-msg ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: left;
+  }
+
+  .success-msg ol {
+    list-style-type: decimal;
+    padding-left: 2rem;
+  }
+
+  .error-msg {
+    font-size: 14px;
+    list-style-type: none;
+  }
+
+  .error-msg ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: left;
+  }
+
+  .error-msg ol {
+    list-style-type: decimal;
+    padding-left: 2rem;
+  }
+}
+
+.formWrapper {
+  width: 100%;
+  margin-bottom: 1rem;
+  min-height: 0;
+}
+
+.form {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  @media (min-width: 840px) {
+    width: 80%;
+  }
+  @media (min-width: 1023px) {
+    width: 60%;
+  }
+
+  & .inputContainer {
+    min-width: min(100%, 33rem);
+    margin-top: 1rem;
+
+    @media (min-width: 500px) {
+      margin: 0;
+    }
+  }
+
+  & .inputWrapper {
+    box-sizing: border-box;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 1.6rem;
+    background-color: var(--color-common-white);
+    border: 1px solid var(--color-common-black);
+  }
+
+  & .input {
+    flex: 1;
+    padding-left: 1rem;
+    height: 4.8rem;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+
+    & :placeholder-shown {
+      text-overflow: ellipsis;
+    }
+  }
+
+  & .errorWrapper {
+    text-align: left;
+  }
+
+  & .error {
+    margin-top: 2px;
+    color: var(--color-error-main);
+  }
+
+  & .buttonWrapper {
+    width: 100%;
+    height: 5rem;
+    min-width: 17rem;
+    margin-top: 1rem;
+    @media (min-width: 500px) {
+      max-width: max(25%, 18rem);
+      margin-top: 0;
+    }
+  }
+
+  & .button {
+    min-height: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@mixin mobile {
+  .container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,43 @@
+.root {
+  flex: 1;
+  height: 100%;
+  border-radius: 0;
+  background-color: var(--color-primary-light);
+}
+.clockIcon {
+  margin-right: 0.8rem;
+}
+.imageBlock {
+  position: relative;
+  aspect-ratio: 2.1;
+}
+@media (max-width: 599px) {
+  .imageBlock {
+    width: 100%;
+    height: calc((100vw) / 1.6);
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .imageBlock {
+    width: 100%;
+    height: calc((100vw) / 4.2);
+  }
+}
+.image {
+  transition: transform 200ms;
+}
+.textBlock {
+  padding: 1.6rem;
+}
+@media (max-width: 599px) {
+  .textBlock {
+    max-height: 13rem;
+    min-height: 13rem;
+  }
+}
+.btnTitle {
+  padding: 5px;
+}
+.subtitle {
+  width: 100%;
+}

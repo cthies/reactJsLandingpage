@@ -1,0 +1,132 @@
+.imageWrapper {
+  width: 116vw;
+  height: 98vh;
+  position: relative;
+  background-color: var(--color-common-white);
+}
+@media (min-width: 500px) and (orientation: landscape) {
+  .imageWrapper {
+    width: 116vw;
+    height: 90vh;
+  }
+}
+@media (min-width: 500px) and (orientation: portrait) {
+  .imageWrapper {
+    width: 114vw;
+    height: 95vh;
+  }
+}
+@media (min-width: 980px) and (orientation: landscape) {
+  .imageWrapper {
+    width: 125vw;
+    height: 78vh;
+  }
+}
+@media (min-width: 1025px) {
+  .imageWrapper {
+    width: 110vw;
+    height: calc(110vw / 3);
+  }
+}
+@media (min-width: 1440px) {
+  .imageWrapper {
+    width: 109vw;
+    height: calc(109vw / 3);
+  }
+}
+@media (min-width: 2120px) {
+  .imageWrapper {
+    width: 108vw;
+    height: calc(108vw / 3);
+  }
+}
+.imagePosition {
+  object-position: center 25%;
+}
+@media (760 <= width <= 1024) and (orientation: portrait) {
+  .imagePosition {
+    object-position: center 20%;
+  }
+}
+@media (max-width: 1024px) and (orientation: landscape) {
+  .imagePosition {
+    object-position: right center;
+  }
+}
+@media (max-width: 1024px) and (orientation: portrait) {
+  .imagePosition {
+    object-position: center center;
+  }
+}
+@media (min-width: 1025px) {
+  .imagePosition {
+    object-position: center 55%;
+  }
+}
+.imageAnimation {
+  animation-name: keyframes-moveToLeft;
+  animation-duration: 8s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@media (min-width: 680px) {
+  .imageAnimation {
+    animation-name: keyframes-tabletMoveToLeft;
+  }
+}
+@media (min-width: 1025px) {
+  .imageAnimation {
+    animation-name: keyframes-DsMoveToLeft;
+  }
+}
+@media (min-width: 1440px) {
+  .imageAnimation {
+    animation-name: keyframes-HDMoveToLeft;
+  }
+}
+@media (min-width: 2120px) {
+  .imageAnimation {
+    animation-name: keyframes-SLMoveToLeft;
+  }
+}
+@keyframes keyframes-moveToLeft {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -26%;
+  }
+}
+@keyframes keyframes-tabletMoveToLeft {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -24%;
+  }
+}
+@keyframes keyframes-DsMoveToLeft {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -18%;
+  }
+}
+@keyframes keyframes-HDMoveToLeft {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -16%;
+  }
+}
+@keyframes keyframes-SLMoveToLeft {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -14%;
+  }
+}

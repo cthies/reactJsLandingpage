@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.item {
+  flex: 0 1 auto;
+  box-sizing: border-box;
+}
+
+@for $i from 1 to 10 {
+  .spacing-$i {
+    width: calc(100% + $i * 2 * 4px);
+    margin: calc($i * (-1) * 4px);
+
+    > .item {
+      padding: calc($i * 4px);
+    }
+  }
+}
+
+@each $breakpoint in xs, sm, md, lg, xl {
+  @mixin $(breakpoint) {
+    @for $i from 1 to 12 {
+      .$(breakpoint)-span-$i {
+        max-width: calc($i / 12 * 100%);
+        flex-basis: calc($i / 12 * 100%);
+      }
+    }
+  }
+}
+
+@each $key in row, row-reverse, column, column-reverse {
+  .direction-$(key) {
+    flex-direction: $(key);
+  }
+}
+
+@each $key in nowrap, wrap, wrap-reverse {
+  .wrap-$(key) {
+    flex-wrap: $(key);
+  }
+}
+
+@each $key in flex-start, center, flex-end, space-between, space-around, space-evenly {
+  .justifyContent-$(key) {
+    justify-content: $(key);
+  }
+}
+
+@each $key in flex-start, center, flex-end, stretch, baseline {
+  .alignItems-$(key) {
+    align-items: $(key);
+  }
+}

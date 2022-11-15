@@ -1,0 +1,25 @@
+.container :global {
+  .slick-list {
+    overflow: visible;
+  }
+
+  .slick-list .slick-track {
+    display: flex;
+  }
+
+  .slick-list .slick-slide {
+    flex-basis: auto;
+    width: max-content;
+    height: auto;
+    margin-right: 1.6rem;
+  }
+}
+
+.titleWrapper {
+  margin: 1.5rem 0 1.6rem;
+}
+.btnRound {
+  padding-left: 16px;
+  border-radius: 100px;
+  padding-right: 16px;
+}

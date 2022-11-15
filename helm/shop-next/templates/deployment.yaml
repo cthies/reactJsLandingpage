@@ -1,0 +1,87 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "shop-next.fullname" . }}
+  labels:
+    {{- include "shop-next.labels" . | nindent 4 }}
+spec:
+{{- if not .Values.autoscaling.enabled }}
+  replicas: {{ .Values.replicaCount }}
+{{- end }}
+  selector:
+    matchLabels:
+      {{- include "shop-next.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      annotations:
+        ad.datadoghq.com/{{ .Chart.Name }}.logs: |
+          [{
+            "source": "nodejs",
+            "service": "shop-next",
+            "log-processing-rules": []
+          }]
+    {{- with .Values.podAnnotations }}
+        {{- toYaml . | nindent 8 }}
+    {{- end }}
+      labels:
+        {{- include "shop-next.selectorLabels" . | nindent 8 }}
+    spec:
+      {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      serviceAccountName: {{ include "shop-next.serviceAccountName" . }}
+      # Please keep in sync with internal graceful termination time
+      # And ambassador maximum timeout value (the longest request should not be killed)
+      terminationGracePeriodSeconds: 60
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      containers:
+        - name: {{ .Chart.Name }}
+          securityContext:
+            {{- toYaml .Values.securityContext | nindent 12 }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: PORT
+              value: "3000"
+            {{- toYaml .Values.env | nindent 12 }}
+          ports:
+            - name: http
+              containerPort: 3000
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /api/healthz
+              port: http
+          volumeMounts:
+          - name: mapping-config
+            mountPath: "/app/config/language.json"
+            subPath: "language.json"
+            readOnly: true
+          - name: mapping-config
+            mountPath: "/app/config/features.json"
+            subPath: "features.json"
+            readOnly: true
+          - name: mapping-config
+            mountPath: "/app/config/42.json"
+            subPath: "42.json"
+            readOnly: true
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      volumes:
+      - name: mapping-config
+        configMap:
+          name: shop-next-mapping

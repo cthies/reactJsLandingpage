@@ -1,0 +1,551 @@
+{
+  "page_title": "ILP",
+  "tracking_page_type": "interest-landing-page",
+  "body": [
+    {
+      "slice_type": "anchor",
+      "slice_label": null,
+      "items": [
+        {
+          "label": "Must read",
+          "url": "#articles"
+        },
+        {
+          "label": "Rezepte",
+          "url": "#recipes"
+        },
+        {
+          "label": "Produkte",
+          "url": "#products"
+        },
+        {
+          "label": "Workouts",
+          "url": "#workouts"
+        }
+      ],
+      "primary": {
+        "title": "Fitness",
+        "subtitle": "Du möchtest Muskeln aufbauen, weißt aber nicht, wie? Ab sofort findest du alles Wichtige an einem Ort. Wissen, Trainingspläne, Rezepte und Produkte, die dich deinem Ziel näherbringen. Aktuelle Events und Inspiration sind inklusive!"
+      }
+    },
+    {
+      "slice_type": "whats_new",
+      "slice_label": null,
+      "items": [
+        {
+          "title": "Artikel",
+          "subtitle": "Fitness Motivation – Schluss mit Ausreden",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Motivation-2.jpg",
+          "url": "/magazine/fitness-motivation",
+          "tracking_id": "What is new ILP 1 MB AT - Nov 2021",
+          "tracking_name": "What is new ILP MB DE AT",
+          "tracking_creative": "Fitness Motivation – Schluss mit Ausreden"
+        },
+        {
+          "title": "Rezept",
+          "subtitle": "Schoko Pudding Oats",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/pudding_oats.jpg",
+          "url": "/magazine/fitness-rezepte/schoko-pudding-oats",
+          "tracking_id": "What is new ILP 2 MB AT - Nov 2021",
+          "tracking_name": "What is new ILP MB DE AT",
+          "tracking_creative": "Schoko Pudding Oats"
+        },
+        {
+          "title": "Workout",
+          "subtitle": "Taurus I",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Workout-Taurus-scaled-1.jpg",
+          "url": "/magazine/workout/taurus-1",
+          "tracking_id": "What is new ILP 3 MB AT - Nov 2021",
+          "tracking_name": "What is new ILP MB DE AT",
+          "tracking_creative": "Taurus I workout"
+        },
+        {
+          "title": "YouTube-Video",
+          "subtitle": "Full day of eating mit fitness_kaykay",
+          "image": "http://i3.ytimg.com/vi/4BhJj18IcAY/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=4BhJj18IcAY",
+          "tracking_id": "What is new ILP 4 MB AT - Nov 2021",
+          "tracking_name": "What is new ILP MB DE AT",
+          "tracking_creative": "Full day of eating mit fitness_kaykay"
+        },
+        {
+          "title": "YouTube-Video",
+          "subtitle": "Full day of eating mit Julius Ise",
+          "image": "http://i3.ytimg.com/vi/RL2Zv-PetAg/hqdefault.jpg",
+          "url": "https://youtu.be/RL2Zv-PetAg",
+          "tracking_id": "What is new ILP 5 MB AT - Nov 2021",
+          "tracking_name": "What is new ILP MB DE AT",
+          "tracking_creative": "Full day of eating mit Julius Ise"
+        }
+      ],
+      "primary": {
+        "title": "Was ist neu?"
+      }
+    },
+    {
+      "slice_type": "article_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "title": "Hypertrophie: Wie Muskelaufbau wirklich funktioniert",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/200316_SEO_1.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/hypertrophie-wie-muskelaufbau-wirklich-funktioniert",
+          "tracking_id": "Article ILP 1 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Hypertrophie: Wie Muskelaufbau wirklich funktioniert"
+        },
+        {
+          "title": "Anatomischer Aufbau der Muskeln und ihre Funktion",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/12/Schnellkraft_DaniloAndjus.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/aufbau-der-muskeln",
+          "tracking_id": "Article ILP 2 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Anatomischer Aufbau der Muskeln und ihre Funktion"
+        },
+        {
+          "title": "Muskelaufbau für Anfänger: Dein 5-Schritte-Guide",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/09/%C2%A9M_a_y_a.jpg",
+          "reading_time": "8 Min Lesezeit",
+          "url": "/magazine/muskelaufbau-fuer-anfaenger",
+          "tracking_id": "Article ILP 3 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Muskelaufbau für Anfänger: Dein 5-Schritte-Guide"
+        },
+        {
+          "title": "Trainingsplan Muskelaufbau: Wir zeigen dir worauf es wirklich ankommt",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/10/trainigsplan-muskelaufbau.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/trainingsplan-muskelaufbau",
+          "tracking_id": "Article ILP 4 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Trainingsplan Muskelaufbau: Wir zeigen dir worauf es wirklich ankommt"
+        },
+        {
+          "title": "Bodyweight vs. Gym: Was ist besser für den Muskelaufbau?",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/04/kurzhantel.jpg",
+          "reading_time": "3 Min Lesezeit",
+          "url": "/magazine/bodyweight-vs-gym",
+          "tracking_id": "Article ILP 5 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Bodyweight vs. Gym: Was ist besser für den Muskelaufbau?"
+        },
+        {
+          "title": "Muskelaufbau & Joggen – Geht das?",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/05/Muskelaufbau-und-Joggen.jpg",
+          "reading_time": "3 Min Lesezeit",
+          "url": "/magazine/muskelaufbau-und-joggen",
+          "tracking_id": "Article ILP 6 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Muskelaufbau & Joggen – Geht das?"
+        },
+        {
+          "title": "Warm up: Richtig aufwärmen im Gym und Zuhause",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/warm-up-hampelmann.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/warm-up",
+          "tracking_id": "Article ILP 7 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Warm up: Richtig aufwärmen im Gym und Zuhause"
+        },
+        {
+          "title": "Cool Down: Warum Abwärmen so wichtig ist!",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/191031_SEO_crop_@Joana-Lopes-EyeEm.jpg",
+          "reading_time": "3 Min Lesezeit",
+          "url": "/magazine/cool-down",
+          "tracking_id": "Article ILP 8 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Cool Down: Warum Abwärmen so wichtig ist!"
+        },
+        {
+          "title": "Atmung beim Krafttraining: Die richtige Atemtechnik für mehr Leistung",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/GettyImages-1131209164.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/atmung-beim-krafttraining",
+          "tracking_id": "Article ILP 9 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Atmung beim Krafttraining: Die richtige Atemtechnik für mehr Leistung"
+        },
+        {
+          "title": "Mind-Muscle-Connection: Der Schlüssel zu maximalem Muskelwachstum",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/12/%C2%A9Smederevac.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/mind-muscle-connection",
+          "tracking_id": "Article ILP 10 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Mind-Muscle-Connection: Der Schlüssel zu maximalem Muskelwachstum"
+        },
+        {
+          "title": "7 Trainingsprinzipien, die du kennen solltest!",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/7-Trainingsprinzipien-Hinterhaus-Productions.jpg",
+          "reading_time": "3 Min Lesezeit",
+          "url": "/magazine/die-7-trainingsprinzipien",
+          "tracking_id": "Article ILP 11 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "7 Trainingsprinzipien, die du kennen solltest!"
+        },
+        {
+          "title": "Makronährstoffe im Überblick",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/05/bunte-fruechte.jpg",
+          "reading_time": "5 Min Lesezeit",
+          "url": "/magazine/makronaehrstoffe",
+          "tracking_id": "Article ILP 12 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Makronährstoffe im Überblick"
+        },
+        {
+          "title": "Eiweiß und Muskelaufbau – So funktioniert’s",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/10/Muskelaufbau.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/eiweiss-muskelaufbau",
+          "tracking_id": "Article ILP 13 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Eiweiß und Muskelaufbau – So funktioniert’s"
+        },
+        {
+          "title": "In 7 Schritten zum Ernährungsplan für Muskelaufbau",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/Coach-Bilder/Header-Bilder/Food/ernaehrungsplan_muskelaufbau_klenova.png",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/ernaehrungsplan-muskelaufbau",
+          "tracking_id": "Article ILP 14 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "In 7 Schritten zum Ernährungsplan für Muskelaufbau"
+        },
+        {
+          "title": "Veganer Muskelaufbau – So klappts auch ohne tierisches Protein",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/fitness_kaykay.png",
+          "reading_time": "2 Min Lesezeit",
+          "url": "/magazine/veganer-muskelaufbau-so-klappts-auch-ohne-tierisches-protein",
+          "tracking_id": "Article ILP 15 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Veganer Muskelaufbau – So klappts auch ohne tierisches Protein"
+        },
+        {
+          "title": "Essen vor dem Sport",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/vegan-protein-bread-avocado-topping.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/essen-vor-dem-sport",
+          "tracking_id": "Article ILP 16 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Essen vor dem Sport"
+        },
+        {
+          "title": "Essen nach dem Sport",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/170707_fs_article-image_800x500_V03_FEi.jpg",
+          "reading_time": "5 Min Lesezeit",
+          "url": "/magazine/essen-nach-dem-sport",
+          "tracking_id": "Article ILP 17 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Essen nach dem Sport"
+        },
+        {
+          "title": "Ernährung am Restday – 6 Tipps für Ernährung zur Regeneration",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Unbenannt-7.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/ernaehrung-am-restday-6-tipp",
+          "tracking_id": "Article ILP 18 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Ernährung am Restday – 6 Tipps für Ernährung zur Regeneration"
+        },
+        {
+          "title": "Snacks für den Muskelaufbau: Timing und Rezepte",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/08/2021-08-26_foodspring_0-20.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/snacks-fuer-den-muskelaufbau",
+          "tracking_id": "Article ILP 19 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Snacks für den Muskelaufbau: Timing und Rezepte"
+        },
+        {
+          "title": "Regeneration nach dem Sport: 9 Tipps für mehr Erholung",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/1%C2%A9da-kuk.png",
+          "reading_time": "3 Min Lesezeit",
+          "url": "/magazine/regeneration-nach-dem-sport",
+          "tracking_id": "Article ILP 20 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Regeneration nach dem Sport: 9 Tipps für mehr Erholung"
+        },
+        {
+          "title": "Schlaf, Muskelaufbau, Körperfettreduktion – Wie hängen sie zusammen?",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/sleep.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/schlaf-muskelaufbau-koerperfettreduktion",
+          "tracking_id": "Article ILP 21 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Schlaf, Muskelaufbau, Körperfettreduktion – Wie hängen sie zusammen?"
+        },
+        {
+          "title": "Was hilft gegen Muskelkater?",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/muskelkater-%C2%A9Patrik-Giardino.jpg",
+          "reading_time": "7 Min Lesezeit",
+          "url": "/magazine/muskelkater",
+          "tracking_id": "Article ILP 22 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Was hilft gegen Muskelkater?"
+        },
+        {
+          "title": "Aktive Regeneration: Ruhetage mit leichter Bewegung",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/yoga-uebungen.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/aktive-regeneration",
+          "tracking_id": "Article ILP 23 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Aktive Regeneration: Ruhetage mit leichter Bewegung"
+        },
+        {
+          "title": "7 Schritte, wie du Training zu einer Gewohnheit machst",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/190806_SEO_magazine_Wann-Training-zur-Gewohnheit-wird-%C2%A9FreshSplash.jpg",
+          "reading_time": "3 Min Lesezeit",
+          "url": "/magazine/wie-du-training-zu-einer-gewohnheit-machst-workout-wednesday",
+          "tracking_id": "Article ILP 24 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "7 Schritte, wie du Training zu einer Gewohnheit machst"
+        },
+        {
+          "title": "Meal Prep – so funktioniert Vorkochen!",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Falafel_Box_Magazine.png",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/meal-prep",
+          "tracking_id": "Article ILP 25 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Meal Prep – so funktioniert Vorkochen!"
+        },
+        {
+          "title": "Warum Stress deinen Muskelaufbau hemmt und was dagegen hilft",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/01/ArtistGNDphotography.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/stress-muskelaufbau",
+          "tracking_id": "Article ILP 26 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Warum Stress deinen Muskelaufbau hemmt und was dagegen hilft"
+        },
+        {
+          "title": "Alkohol und Muskelaufbau – 7 Fakten, die du kennen solltest",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2016/05/%C2%A9Hinterhaus-Productions.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/alkohol-und-muskelaufbau",
+          "tracking_id": "Article ILP 27 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Alkohol und Muskelaufbau – 7 Fakten, die du kennen solltest"
+        },
+        {
+          "title": "So vermeidest du die 9 größten Fehler im Krafttraining – Workout Wednesday",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Fehler-im-Krafttraining.jpg",
+          "reading_time": "4 Min Lesezeit",
+          "url": "/magazine/grossten-fehler-im-krafttraining-vermeiden",
+          "tracking_id": "Article ILP 28 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "So vermeidest du die 9 größten Fehler im Krafttraining – Workout Wednesday"
+        },
+        {
+          "title": "Die 6 häufigsten Mythen über Frauen Fitness",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2014/07/Kurzhantel_Mike-Harrington.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/die-6-haeufigsten-mythen-uber-frauen-fitness",
+          "tracking_id": "Article ILP 29 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Die 6 häufigsten Mythen über Frauen Fitness"
+        },
+        {
+          "title": "Vom Sportmuffel zum Men’sHealth Muscle Cover – Julius Ise im Interview",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/190121-fs-800x500-article-juliusise-3.jpg",
+          "reading_time": "5 Min Lesezeit",
+          "url": "/magazine/vom-sportmuffel-zum-menshealth-cover-julius-ise-verraet-wie-er-es-geschafft-hat",
+          "tracking_id": "Article ILP 30 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Vom Sportmuffel zum Men’sHealth Muscle Cover – Julius Ise im Interview"
+        },
+        {
+          "title": "„Der Körper sieht durch Muskeln auch ohne Klamotten einfach gut aus“ – Interview mit Muskelaufbau-Guide Teilnehmerin Sydney",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Sydney_After.png",
+          "reading_time": "5 Min Lesezeit",
+          "url": "/magazine/interview-mit-sydney-muskelaufbau-guide-teilnehmerin",
+          "tracking_id": "Article ILP 31 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Der Körper sieht durch Muskeln auch ohne Klamotten einfach gut aus"
+        },
+        {
+          "title": "Fitness Motivation – Schluss mit Ausreden",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Motivation-2.jpg",
+          "reading_time": "6 Min Lesezeit",
+          "url": "/magazine/fitness-motivation",
+          "tracking_id": "Article ILP 32 MB AT - Nov 2021",
+          "tracking_name": "Articles ILP MB DE AT",
+          "tracking_creative": "Fitness Motivation – Schluss mit Ausreden"
+        }
+      ],
+      "primary": {
+        "article_block_id": "articles",
+        "intro_title": "Muskelaufbau für Anfänger — so geht's!",
+        "intro_subtitle": "Ein effektiver Muskelaufbau basiert auf drei Säulen: Training, Ernährung und Regeneration. Wir erklären dir Schritt für Schritt, worauf es bei einzelnen Faktoren ankommt und wie du dein Ziel mit deinem Alltag am besten vereinen kannst.",
+        "cta_url": "/magazine/muskelaufbau",
+        "cta_label": "weitere Artikel"
+      }
+    },
+    {
+      "slice_type": "recipe_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "title": "Schoko Pudding Oats",
+          "preparation_time": "10 Mins",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/pudding_oats.jpg",
+          "badge": "High Protein",
+          "url": "/magazine/fitness-rezepte/schoko-pudding-oats",
+          "tracking_id": "Recipe ILP 1 MB AT - Nov 2021",
+          "tracking_name": "Recipes ILP MB DE AT",
+          "tracking_creative": "CW44-2021 Schoko Pudding Oats"
+        },
+        {
+          "title": "Protein Sandwich mit Thunfisch",
+          "preparation_time": "10 Mins",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/Tuna-Sandwich-1-1.jpg",
+          "badge": "Glutenfrei",
+          "url": "/magazine/fitness-rezepte/tuna-sandwich-rezept",
+          "tracking_id": "Recipe ILP 2 MB AT - Nov 2021",
+          "tracking_name": "Recipes ILP MB DE AT",
+          "tracking_creative": "Protein Sandwich mit Thunfisch"
+        },
+        {
+          "title": "Süßkartoffel Hähnchen Bowl Rezept",
+          "preparation_time": "10 Mins",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/2018-03-15_Foodspring15370-1-2.jpg",
+          "badge": "High Protein",
+          "url": "/magazine/fitness-rezepte/suesskartoffel-hahnchen-bowl-rezept",
+          "tracking_id": "Recipe ILP 3 MB AT - Nov 2021",
+          "tracking_name": "Recipes ILP MB DE AT",
+          "tracking_creative": "Süßkartoffel Hähnchen Bowl Rezept"
+        },
+        {
+          "title": "Protein Shake Schoko-Erdnuss",
+          "preparation_time": "10 Mins",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/choc_peanutbutter_shake.jpg",
+          "badge": "Wenig Zucker",
+          "url": "/magazine/fitness-rezepte/schoko-erdnuss-protein-shake",
+          "tracking_id": "Recipe ILP 4 MB AT - Nov 2021",
+          "tracking_name": "Recipes ILP MB DE AT",
+          "tracking_creative": "Protein Shake Schoko-Erdnuss"
+        },
+        {
+          "title": "Vegane Protein-Schoko-Cookies",
+          "preparation_time": "10 Mins",
+          "image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/05/P1600397.png",
+          "badge": "High Protein",
+          "url": "/magazine/fitness-rezepte/vegane-schoko-cookies",
+          "tracking_id": "Recipe ILP 5 MB AT - Nov 2021",
+          "tracking_name": "Recipes ILP MB DE AT",
+          "tracking_creative": "CW44-2021 Vegane Protein-Schoko-Cookies"
+        }
+      ],
+      "primary": {
+        "recipe_block_id": "recipes",
+        "intro_title": "Ausgewogene Rezepte für den Muskelaufbau",
+        "intro_subtitle": "Leckere und proteinreiche Rezepte, die dich beim Muskelaufbau unterstützen. Ganz egal, ob du Veganer, Vegetarier oder Allesesser bist, mit unseren Rezepten erreicht jeder sein Ziel! Hier warten die neuesten Foodtrends, Saisonales und mehr auf dich!",
+        "cta_url": "/magazine/fitness-rezepte",
+        "cta_label": "weitere Rezepte"
+      }
+    },
+    {
+      "slice_type": "article_product_slider",
+      "slice_label": null,
+      "items": [
+        {
+          "article_title": "Whey Protein – Der Alleskönner für deine Muskeln im Überblick",
+          "article_image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/09/whey-protein.jpg",
+          "article_subtitle": "Whey Protein ist der Klassiker unter den Protein-Shakes. Erfahre die wichtigsten Fakten rund um das Protein für deine Fitness-Ziele.",
+          "article_url": "/magazine/was-ist-whey-protein",
+          "article_cta_label": "Weiterlesen",
+          "product_title": "Whey Protein",
+          "product_price": 29.99,
+          "product_url": "/whey-protein",
+          "product_cta_label": "Add to cart",
+          "product_image": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_desktop_whey-protein-group.png"
+        },
+        {
+          "article_title": "Veganer Muskelaufbau – So klappts auch ohne tierisches Protein",
+          "article_image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2019/07/skynesher.jpg",
+          "article_subtitle": "So manch einer behauptet, dass Muskelaufbau mit veganer Ernährung nicht möglich sei. Doch das stimmt so nicht! Hier erfährst du, wie du als Veganer am besten Muskeln aufbaust und worauf du achten solltest.",
+          "article_url": "/magazine/veganer-muskelaufbau-so-klappts-auch-ohne-tierisches-protein",
+          "article_cta_label": "Weiterlesen",
+          "product_title": "Vegan Protein",
+          "product_price": 29.99,
+          "product_url": "/magazine/veganer-muskelaufbau-so-klappts-auch-ohne-tierisches-protein",
+          "product_cta_label": "Add to cart",
+          "product_image": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_desktop_vegan-protein-group.png"
+        },
+        {
+          "article_title": "Pre-Workout-Drink – Bring dein Training auf’s nächste Level",
+          "article_image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2021/09/energy-aminos.jpg",
+          "article_subtitle": "-",
+          "article_url": "/magazine/pre-workout-drink",
+          "article_cta_label": "Weiterlesen",
+          "product_title": "Energy Aminos",
+          "product_price": 34.99,
+          "product_url": "/magazine/pre-workout-drink",
+          "product_cta_label": "Add to cart",
+          "product_image": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_desktop_energy-aminos-group.png"
+        },
+        {
+          "article_title": "Workout Aminos – so ziehst du dein Workout wirklich durch!",
+          "article_image": "https://d23o500odzh64r.cloudfront.net/magazine/wp-content/uploads/2020/11/intraaminos3.jpg",
+          "article_subtitle": "-",
+          "article_url": "/magazine/workout-aminos-so-ziehst-du-dein-workout-wirklich-durch",
+          "article_cta_label": "Weiterlesen",
+          "product_title": "Workout Aminos",
+          "product_price": 34.99,
+          "product_url": "/magazine/workout-aminos-so-ziehst-du-dein-workout-wirklich-durch",
+          "product_cta_label": "Add to cart",
+          "product_image": "https://d23o500odzh64r.cloudfront.net/media/catalog/product/o/n/onsite_pdp_desktop_workout-aminos-group.png"
+        }
+      ],
+      "primary": {
+        "article_block_id": "articles",
+        "title": "Diese Produkte bringen dich zum Ziel",
+        "cta_url": "/muskelaufbau",
+        "cta_label": "weitere Produkte",
+        "tracking_list": "test",
+        "tracking_category": "test_category",
+        "tacking_event_category": "event_category",
+        "tracking_cta_label": "cta_label_tracking"
+      }
+    },
+    {
+      "slice_type": "workouts",
+      "slice_label": null,
+      "items": [
+        {
+          "title": "Taurus I",
+          "subtitle": "Daumen hoch für dieses Ganzkörper Workout für Beginner. Werde stärker und baue Muskeln auf. Mit Taurus I. Let's go!",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/ilp/workouts/Workout-Taurus.jpg",
+          "time": "ab 30 min",
+          "difficulty": "beginner",
+          "difficulty_label": "Beginner",
+          "url": "/magazine/workout/taurus-1",
+          "tracking_id": "Workout ILP 1 MB AT - Nov 2021",
+          "tracking_name": "Workouts ILP MB DE AT",
+          "tracking_creative": "Taurus 1"
+        },
+        {
+          "title": "Cassiopeia II",
+          "subtitle": "Das foodspring Workout Cassiopeia II ist ein Workout mit dem eigenen Körpergewicht. Muskelaufbau für Fortgeschrittene ohne Equiment. Let's go!",
+          "image": "https://d23o500odzh64r.cloudfront.net/media/wysiwyg/shop-next/ilp/workouts/Workout-Westend.jpg",
+          "time": "max. 30 min",
+          "difficulty": "advanced",
+          "difficulty_label": "Fortgeschrittene",
+          "url": "/magazine/workout/cassiopeia-2",
+          "tracking_id": "Workout ILP 2 MB AT - Nov 2021",
+          "tracking_name": "Workouts ILP MB DE AT",
+          "tracking_creative": "Cassiopeia II"
+        }
+      ],
+      "primary": {
+        "workout_block_id": "workouts",
+        "intro_title": "Mit unseren Workouts deine Muskeln ans Limit bringen!",
+        "intro_subtitle": "Unsere Workouts beanspruchen deine gesamte Muskulatur. Intensive Übungen angepasst an dein Fitnesslevel. Hier findest du das Richtige für dich.",
+        "cta_title": "weitere Workouts",
+        "cta_url": "/magazine/workouts"
+      }
+    }
+  ]
+}

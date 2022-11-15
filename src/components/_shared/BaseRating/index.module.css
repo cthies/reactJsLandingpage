@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  margin-right: 1rem;
+}
+
+.bg,
+.value {
+  position: absolute;
+  text-align: start;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  & svg {
+    vertical-align: top !important;
+  }
+}
+
+.value {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.bgIcon {
+  opacity: 0.3;
+}

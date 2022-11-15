@@ -1,0 +1,24 @@
+.wrapper {
+  margin: 3rem 0;
+}
+@media (min-width: 1025px) {
+  .wrapper {
+    margin: 5rem 0;
+  }
+}
+.content {
+  margin-top: 1.6rem;
+}
+@media (min-width: 1025px) {
+  .content {
+    margin-top: 2rem;
+  }
+}
+.flexContainer {
+  margin: 1rem;
+}
+.btnRound {
+  padding-left: 16px;
+  border-radius: 100px;
+  padding-right: 16px;
+}

@@ -1,0 +1,41 @@
+.item {
+  position: relative;
+  height: 215px;
+  width: 33%;
+  margin: 0 24px 0 0;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.image {
+  transition: transform 200ms;
+}
+
+.item .title {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 35px 15px 15px;
+  color: white;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 75px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #333 100%);
+}
+
+@media (min-width: 1025px) {
+  .item:hover .image {
+    transform: scale(1.15);
+  }
+}

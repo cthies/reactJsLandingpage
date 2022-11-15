@@ -1,0 +1,67 @@
+.container {
+  background: var(--color-common-black);
+  color: var(--color-common-white);
+  font-size: 14px;
+
+  .blockContainer {
+    padding: 0;
+  }
+
+  &.top {
+    background: var(--color-common-black-600);
+  }
+  &.middle {
+    background: var(--color-common-black-400);
+  }
+  &.bottom {
+    background: var(--color-common-black);
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  a {
+    color: var(--color-common-white);
+
+    @mixin desktop {
+      &:hover {
+        color: var(--color-secondary-light);
+      }
+    }
+  }
+
+  .link {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .image {
+    margin-bottom: 8px;
+    margin-right: 8px;
+  }
+}
+
+.footerBlock {
+  margin: 12px;
+}
+
+@mixin md {
+  .footerBlock {
+    margin: 24px 12px;
+  }
+}
+
+.footerBlockTitle {
+  margin-bottom: 12px;
+}
+
+@mixin md {
+  .footerBlockOffset {
+    padding-right: 16px;
+  }
+}
+
+.subBlock {
+  margin-top: 8px;
+}

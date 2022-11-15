@@ -1,0 +1,21 @@
+.titleWrapper {
+  width: min(90rem, 100%);
+  margin: 2.5rem auto;
+  text-align: left;
+}
+@media (min-width: 1025px) {
+  .titleWrapper {
+    text-align: center;
+  }
+}
+.header {
+  margin: 1.6rem 0 2rem;
+}
+.btnWrapper {
+  text-align: left;
+}
+@media (min-width: 1025px) {
+  .btnWrapper {
+    text-align: center;
+  }
+}

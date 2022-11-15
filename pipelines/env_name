@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source "${BASH_SOURCE%/*}/utils.sh"
+
+trim53 $(normalize $PROJECT-$BITBUCKET_BRANCH)
